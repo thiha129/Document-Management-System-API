@@ -2,6 +2,10 @@
   "name": "@nx-document-assignment/server",
   "version": "0.0.1",
   "private": true,
+    "scripts": {
+  "start": "node out-tsc/server/main.js",
+  "build": "tsc"
+  },
   "nx": {
     "name": "server",
     "projectType": "application",
